@@ -6,9 +6,10 @@ int    my_putchar(char c)
   write (1, &c, 1);
 }
 
-void my_true_loop_spaces(unsigned int nbrspaces)
+void	my_true_loop_spaces(unsigned int nbrspaces)
 {
-  int counter;
+  int	counter;
+
   counter = 0;
   while (nbrspaces > counter)
     {
@@ -61,8 +62,6 @@ int	firstlineofstars(int size)
      counterstars = counterstars + add;
     }
    
-  
-
   return(counterstars);
 }
 
@@ -111,7 +110,7 @@ int	brancherecursive(int sizesapin, int counter)
    branche(counter, sizesapin);
    counter++;
    brancherecursive(sizesapin, counter);
-	}
+ }
   
 }
 
